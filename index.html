@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You're Invited!</title>
+
+    <style>
+        body {
+            background-image: url(Background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #eb4141;
+            font-family: sans-serif;
+            font-size: 1.4rem;
+            color: white;
+            margin: 0;
+        }
+
+        footer {
+            background-color: #a32f2f;
+            text-align: center;
+            padding: 1.4rem 0;
+        }
+
+        footer h3 {
+            font-size: 2rem;
+        }
+
+        #welcomeImg {
+            justify-content: space-between;
+            margin: 1rem auto;
+            text-align: center;
+        }
+
+        #welcomeImg img {
+            width: 13.8rem;
+            height: 14rem;
+        }
+
+        #reindeerFlipped {
+            transform: scaleX(-1);
+        }
+
+        #welcomeText {
+            text-align: center;
+            font-size: 2rem;
+            letter-spacing: 0.4rem;
+        }
+
+        #welcomeText h1 {
+            font-size: 6.2rem;
+            font-weight: 600;
+            text-shadow: 1px 6px 7px rgba(0,0,0,0.6);
+        }
+
+        .cursive {
+            font-family: "Brush Script MT", cursive;
+            font-size: 3.6rem;
+        }
+
+        #mainContent {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem;
+        }
+
+        #textInfo {
+            font-size: 1.3rem;
+            text-align: center;
+        }
+
+        #sneakPeek {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        #imageList {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .imageList img {
+            padding: 0.5rem 2rem;
+            width: 19.6rem;
+            height: 17.2rem;
+            transform: scale(1);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .imageList img:hover {
+            transform: scale(1.1);
+        }
+
+    </style>
+</head>
+<body>
+    <section id="welcome">
+        <div id="welcomeImg">
+            <img src="reindeer.png" alt="reindeer">
+            <img src="KRIMA TREE.png" alt="Christmass tree">
+            <img src="reindeer.png" alt="reindeer" id="reindeerFlipped">
+        </div>
+
+        <div id="welcomeText">
+            <p>you are Invited to</p>
+            <h1>CHRISTMAS</h1>
+            <p class="cursive">party</p>
+        </div>
+    </section>
+
+    <main id="mainContent">
+        <section id="textInfo">
+            <h2>Location:</h2>
+            <p>Robinsons Place Manila, 3rd floor</p>
+            <h2>Date of event:</h2>
+            <p>Dec. 12, 2025</p>
+            <h2>Time of event:</h2>
+            <p>5-9PM</p>
+            <h2>Attire:</h2>
+            <p>Formal attire is recommended, particularly <mark>long sleeves</mark></p>
+        </section>
+        <section>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.4075573867553!2d120.98393879999999!3d14.5758375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca291d37a877%3A0x521822decfe229a6!2sRobinsons%20Place%20Manila!5e0!3m2!1sen!2sph!4v1761280339749!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+
+    <section id="sneakPeek">
+        <h3 class="cursive">Sneak peek of the party!</h3>
+        <div class="imageList">
+            <img src="Room1.webp" alt="Living Room">
+            <img src="Room2.jpg" alt="Dining Room">
+        </div>
+    </section>
+
+    <footer>
+        <h3>For more info, please contact us:</h3>
+        <p>+63 965 173 5398</p>
+        <p>Squidder@gmail.com</p>
+    </footer>
+</body>
+</html>
